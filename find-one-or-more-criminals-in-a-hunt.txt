@@ -1,0 +1,1 @@
+let reCriminals = /C+/; // searching for presence of C w/ or w/o additional C immediately following

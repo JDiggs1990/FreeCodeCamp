@@ -1,0 +1,3 @@
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi; // Changed this line. Can I include spaces? Multiple sets of brackets for readability? 
+let result = quoteSample.match(myRegex); // Change this line

@@ -1,0 +1,3 @@
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g; // "\W" _note capitalized) checks for non-alphanumeric and "_"  of the opposite of "\w"
+let result = quoteSample.match(nonAlphabetRegex).length;
