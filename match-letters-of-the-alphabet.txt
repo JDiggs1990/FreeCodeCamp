@@ -1,0 +1,3 @@
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi; // matches any char from a to z incl caps
+let result = quoteSample.match(alphabetRegex); // Changed this line
